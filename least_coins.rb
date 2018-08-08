@@ -9,5 +9,5 @@ def least_coins(cents)
   puts quarters
   puts dimes
   puts nickels
-  return pennies
+  puts pennies
 end
