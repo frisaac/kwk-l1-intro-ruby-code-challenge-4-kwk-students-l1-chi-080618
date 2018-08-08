@@ -7,9 +7,9 @@ def least_coins(cents)
   nickels = ((cents%25)%10)/5
   pennies = (((cents%25)%10)%5)/1
   coin_hash = {
-    :quarters => quarters
-    :dimes => dimes
-    :nickels => nickels
+    :quarters => quarters,
+    :dimes => dimes,
+    :nickels => nickels,
     :pennies => pennies
   }
 end
