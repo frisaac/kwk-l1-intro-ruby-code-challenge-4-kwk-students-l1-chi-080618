@@ -6,8 +6,8 @@ def least_coins(cents)
   dimes = (cents%25)/10
   nickels = ((cents%25)%10)/5
   pennies = (((cents%25)%10)%5)/1
-  return quarters
-  return dimes
-  return nickels
+  puts quarters
+  puts dimes
+  puts nickels
   return pennies
 end
